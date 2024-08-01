@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 '''101-safely_get_value.py file'''
 from typing import Mapping, Any, Union, TypeVar
+
+
 T = TypeVar('T')
 
 
