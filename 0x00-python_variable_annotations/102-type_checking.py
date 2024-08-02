@@ -5,9 +5,9 @@ from typing import List, Tuple
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     '''apply any necessary changes'''
-    zoomed_in: List = [
+    zoomed_in: List[int] = [
         item for item in lst
-        for i in range(int(factor))
+        for i in range(factor)
     ]
     return zoomed_in
 
